@@ -22,9 +22,13 @@
             </form>
         </div>
         <?php
+<<<<<<< HEAD
             for($i=0; $i<20; $i++){
                 echo '<div class="block"><div ><span>BLOQUE</span></div></div>';
             }
+=======
+        echo "AÑADIDAS LAS ESTRUCTURAS."
+>>>>>>> estructura
         ?>
     </body>
 </html>
