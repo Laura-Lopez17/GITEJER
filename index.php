@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edit this template
--->
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
-    </head>
+        <title>Login</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>     
     <body>
+        <nav id="menu_nav">
+            <a href="#">INICIO</a>
+            <a href="#">Política de privacidad</a>
+            <a href="#">Login</a>
+            
+        </nav>
+        <form id="login" action="ajax/form.php" method="post">
+            <label>Usuario:</label>
+            <input type="text" name="user">
+            <label>Password:</label>
+            <input type="text" name="pass">
+        </form>
         <?php
-        // put your code here
+            
         ?>
     </body>
 </html>
