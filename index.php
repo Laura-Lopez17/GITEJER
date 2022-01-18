@@ -38,10 +38,20 @@
             
 =======
         <?php
+<<<<<<< HEAD
             for($i=0; $i<20; $i++){
                 echo '<div class="block"><div ><span>BLOQUE</span></div></div>';
             }
 >>>>>>> 3aa451a494e1d0b66da879297529375d0226200d
+=======
+<<<<<<< HEAD
+            for($i=0; $i<20; $i++){
+                echo '<div class="block"><div ><span>BLOQUE</span></div></div>';
+            }
+=======
+        echo "AÑADIDAS LAS ESTRUCTURAS."
+>>>>>>> estructura
+>>>>>>> 001
         ?>
     </body>
 </html>
